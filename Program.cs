@@ -20,7 +20,7 @@ string reverse = "The quick brown fox jump over the lazy dog"; // Necesito recor
 var wordOfList = reverse.Split(" ");
 foreach (var word in wordOfList)
 {
-    var newWords = word.ToCharArray();// pregunta a luis. sobre no necesitar el foreach
+    var newWords = word.ToCharArray();
     Array.Reverse(newWords);
     Console.Write(newWords);
     Console.Write(' ');
